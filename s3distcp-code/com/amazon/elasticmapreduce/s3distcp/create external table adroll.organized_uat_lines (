@@ -1,0 +1,11 @@
+create external table adroll.organized_uat_lines (
+cookie string,
+raw_attribute_value string)
+PARTITIONED BY (date STRING)
+PARTITIONED BY (source STRING)
+PARTITIONED BY (attribute STRING)
+PARTITIONED BY (value STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION 's3://adroll-data/organizeduat/'

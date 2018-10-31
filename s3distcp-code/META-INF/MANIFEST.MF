@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: ec2-user
+Build-Jdk: 1.7.0_101
+Created-By: Apache Maven 3.3.9
+Main-Class: com/amazon/elasticmapreduce/s3distcp/Main
+Archiver-Version: Plexus Archiver
+
